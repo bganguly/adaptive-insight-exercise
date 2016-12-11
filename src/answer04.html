@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+<head>
+    <title>Hello, Adaptive Insights</title>
+    <link rel="stylesheet" type="text/css" href="answer04.css">
+</head>
+<body>
+
+    <form class="addressForm"  name="addressForm">
+        <h3>
+            Address Form
+        </h3>
+        <div>
+            <label for="name">Name:</label>
+            <input type="text" id="name" />
+            <span id="nameErrors"></span>
+        </div>
+        <div>
+            <label for="address1">Address 1:</label>
+            <input type="text" id="address1" />
+            <span id="address1Errors"></span>
+        </div>
+        <div>
+            <label for="address2">Address 2:</label>
+            <input type="text" id="address2" />
+            <span id="address2Errors"></span>
+        </div>
+        <div>
+            <label for="city">City :</label>
+            <input type="text" id="city" />
+            <span id="cityErrors"></span>
+        </div>
+        <div>
+            <label for="State">State :</label>
+            <select id="State">
+                <option value="CA">CA</option>
+                <option value="OR">OR</option>
+                <option value="WA">WA</option>
+            </select>
+        </div>
+        <div>
+            <label for="zip">Zip Code :</label>
+            <input type="text" id="zip" />
+            <span id="zipErrors"></span>
+        </div>
+        <div>
+            <button id='cancel' class="cancel" type="button">Cancel</button>
+            <button id ='ok' class="ok" type="button">OK</button>
+        </div>
+    </form>
+<script src="answer04.js"></script>
+</body>
+</html>
